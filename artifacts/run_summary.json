@@ -1,0 +1,22 @@
+{
+  "tensorflow": "2.20.0",
+  "gpus": [],
+  "stage1": {
+    "tag": "head",
+    "epochs_ran": 9,
+    "train_acc_last": 0.9100000262260437,
+    "val_acc_best": 0.6359999775886536,
+    "val_loss_best": 1.1533136367797852,
+    "seconds": 83.19246101379395
+  },
+  "stage2": {
+    "tag": "finetune_last20",
+    "epochs_ran": 2,
+    "train_acc_last": 0.8736249804496765,
+    "val_acc_best": 0.6455000042915344,
+    "val_loss_best": 1.1883913278579712,
+    "seconds": 86.83909201622009
+  },
+  "test_loss": 1.2704417705535889,
+  "test_accuracy": 0.6140999794006348
+}
