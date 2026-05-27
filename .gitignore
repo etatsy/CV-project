@@ -1,0 +1,12 @@
+.venv/
+.keras/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Notebook outputs (optional)
+/artifacts/*.h5
+/artifacts/*.keras
+/artifacts/*.ckpt
+/artifacts/*.weights.*
+
