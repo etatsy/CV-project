@@ -3,10 +3,17 @@
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+catboost_info/
+
+# Generated artifacts / logs
+artifacts/presentation/
+artifacts/mplconfig/
+artifacts/*.tfevents*
+**/events.out.tfevents*
+**/*.tsv
 
 # Notebook outputs (optional)
 /artifacts/*.h5
 /artifacts/*.keras
 /artifacts/*.ckpt
 /artifacts/*.weights.*
-
